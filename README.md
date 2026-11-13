@@ -17,6 +17,7 @@ audio generation with either OpenAI or Gemini.
 | [06_gemini_video_news_workflow.ipynb](notebooks/06_gemini_video_news_workflow.ipynb) | Gemini video workflow | Uses editor, fact-checking, script-writing, video-directing, and prompt-review agents before generating an MP4 with Veo. |
 | [07_customer_support_workflow.ipynb](notebooks/07_customer_support_workflow.ipynb) | Conditional workflow with human approval | Investigates a damaged order, checks policy, reviews a structured proposal, and waits for approval before recording a simulated replacement, refund, or escalation. |
 | [08_explainable_news_brief_workflow.ipynb](notebooks/08_explainable_news_brief_workflow.ipynb) | Consensus script writing | Extends notebook 05 with three script writers and a reasoning agent that produces the final script and an editorial explanation. |
+| [09_multi_provider_news_brief_workflow.ipynb](notebooks/09_multi_provider_news_brief_workflow.ipynb) | Consensus across providers | Uses OpenAI, Gemini, and Claude writers with the same prompt and input, then reviews their drafts and generates a voice briefing. |
 
 ## Prerequisites
 
@@ -25,7 +26,8 @@ audio generation with either OpenAI or Gemini.
 - An [OpenAI API key](https://platform.openai.com/api-keys) for OpenAI notebooks
 - A [Gemini API key](https://aistudio.google.com/api-keys) for Gemini notebooks
 
-You need only the key for the provider you select. Never add API keys directly to a notebook or
+You need only the key for the provider you select, except notebook 09, which requires OpenAI,
+Gemini, and Anthropic API keys. Never add API keys directly to a notebook or
 commit them to the repository.
 
 ## Run the notebooks in Google Colab
@@ -125,6 +127,19 @@ news, then a reasoning agent compares their drafts and returns `news_script` plu
 default to the same configured model for either provider. Keep them identical to use one accessible
 model, or change individual variables to compare different models. Inspect the agreements,
 disagreements, and explanation before running the audio cell.
+
+### News brief with OpenAI, Gemini, and Claude
+
+Notebook 09 uses one writer from each provider with identical instructions and edited news.
+Add `OPENAI_API_KEY`, `GEMINI_API_KEY`, and `ANTHROPIC_API_KEY` to Colab Secrets and enable access
+for all three. Configure the writer model names independently in section 2. Each provider needs
+API access and quota for the model you choose.
+
+`PROVIDER` selects OpenAI or Gemini for the editor and audio. `REASONING_PROVIDER` and
+`REASONING_MODEL_NAME` independently configure the consensus reviewer, which defaults to OpenAI.
+Claude uses Anthropic's OpenAI-compatible endpoint for plain-text script generation; the structured
+reviewer supports OpenAI or Gemini. The search, editor instructions, consensus review, TTS, and
+download steps follow notebook 08. All three writers must succeed before review proceeds.
 
 ## Run the basic example locally
 
