@@ -6,10 +6,12 @@ Develop an agentic AI solution for a realistic workplace problem. Identify a sui
 
 This research project combines the workflow case study and research paper into one project with four connected stages. Use the same use case throughout, refining it as you learn from research, design, and implementation.
 
-| Project stage | Focus | Main deliverable |
+There are two final deliverables: **implementation** and **research paper**. The use-case analysis, design, and evaluation become part of the paper; separate reports for these stages are not required.
+
+| Project stage | Focus | Contribution to final submission |
 |---|---|---|
-| 1. Identify a use case | Understand the problem and current process. | Use-case brief and current-state process diagram. |
-| 2. Design the concept and agents | Define the proposed workflow, agent roles, prompts, tools, and human oversight. | Design document and proposed-workflow diagram. |
+| 1. Identify a use case | Understand the problem and current process. | Use-case analysis and current-state diagram for the paper. |
+| 2. Design the concept and agents | Define the proposed workflow, agent roles, prompts, tools, and human oversight. | Workflow and agent design for the paper; prompts in the repository. |
 | 3. Implement and evaluate | Build a small working prototype and examine its behaviour. | Runnable implementation, setup instructions, and evaluation results. |
 | 4. Write a research paper | Explain the problem, design, implementation, findings, and limitations. | Final paper as a PDF. |
 
@@ -38,7 +40,7 @@ Use public or synthetic data. Do not submit API keys, confidential documents, pe
 
 Choose one narrow, repetitive process from a setting you understand: your workplace, office, internship, volunteer role, family business, or student organisation. If you do not have access to such a setting, use a clearly described realistic scenario and state your assumptions.
 
-Explain the problem before proposing the technology. Your brief should cover:
+Explain the problem before proposing the technology. Your use-case analysis should cover:
 
 - **Context and problem:** the setting, users or teams affected, and why the problem matters.
 - **Current process:** its trigger, inputs, people involved, steps, outputs, and pain points.
@@ -50,9 +52,9 @@ Explain the problem before proposing the technology. Your brief should cover:
 
 Include a current-state process diagram showing how the work is performed today.
 
-### Deliverable
+### Contribution to the paper
 
-A use-case brief in Markdown, PDF, or document format, including the current-state diagram and initial success measures. This brief provides the problem definition for Stage 2.
+Develop the use-case analysis, current-state diagram, and initial success measures for inclusion in the research paper. This work provides the problem definition for Stage 2; no separate use-case brief is required.
 
 ## Project Stage 2: Design the concept and agents
 
@@ -75,9 +77,9 @@ Explain how the workflow handles missing information, incorrect outputs, tool fa
 
 Plan the evaluation before implementation: select representative inputs, define what a successful output looks like, and describe a comparison with the current process or a simple baseline where feasible.
 
-### Deliverable
+### Contribution to the paper
 
-A design document in Markdown, PDF, or document format containing the proposed-workflow diagram, agent specifications, system prompts, tool descriptions, human oversight rules, and evaluation plan. This design guides Stage 3.
+Develop the proposed-workflow diagram, agent specifications, system prompts, tool descriptions, human oversight rules, and evaluation plan. This design guides Stage 3. Explain it in the research paper and include full prompts in the implementation repository or a paper appendix; no separate design document is required.
 
 ## Project Stage 3: Implement and evaluate the workflow
 
@@ -102,7 +104,7 @@ Implementation is a required part of this research project. Keep the scope small
 
 ### Deliverable
 
-A runnable notebook, source-code project, or exported workflow with setup instructions, sample inputs, example outputs, and a short evaluation report. Publish the source code or exported workflow in a GitHub repository and include the repository link in your submission and research paper. These results form the evidence for Stage 4.
+A runnable notebook, source-code project, or exported workflow with setup instructions, sample inputs, example outputs, and supporting evaluation cases and results. Publish the source code or exported workflow in a GitHub repository and include the repository link in your submission and research paper. Present the evaluation method, findings, and interpretation in the paper; no separate evaluation report is required. These results form the evidence for Stage 4.
 
 ## Project Stage 4: Write a research paper
 
@@ -146,18 +148,16 @@ The following papers in this repository provide examples of agentic AI use cases
 
 ### Deliverable
 
-The final research paper as a PDF, drawing on the use-case brief, design, implementation, and evaluation from the preceding stages.
+The final research paper as a PDF, integrating the use-case analysis, design, implementation, and evaluation from the preceding stages.
 
 ## Final submission
 
-Submit the four stages as one project package:
+Submit two final deliverables:
 
-1. **Use-case brief**, including the current-state process diagram.
-2. **Design document**, including the proposed-workflow diagram, agent specifications, prompts, and evaluation plan.
-3. **Implementation and evaluation**, including the GitHub repository link, runnable files, setup instructions, sample inputs, example outputs, and results.
-4. **Research paper** as a PDF, including references.
+1. **Implementation:** a GitHub repository link containing the runnable notebook, source-code project, or exported workflow, along with setup instructions, agent prompts, sample inputs, example outputs, and supporting evaluation cases and results.
+2. **Research paper:** one PDF covering the use case and current process, proposed workflow and agent design, implementation, evaluation and results, limitations, and references. Include the current-state and proposed-workflow diagrams and a link to the implementation repository.
 
-Ensure the documents and implementation describe the same final workflow. Record significant refinements to the original use case or design so that the progression of the project is clear.
+The four stages guide how you develop these two deliverables. Separate use-case, design, and evaluation reports are not required. Ensure the paper and implementation describe the same final workflow, and explain significant refinements to the original use case or design in the paper.
 
 ## Before submitting
 

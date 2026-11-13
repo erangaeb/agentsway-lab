@@ -247,13 +247,14 @@ def main():
         if index == 4:
             text, research = text.split("### Research starting points", 1)
             text, sharing = text.split("### Optional next step: share or publish your research", 1)
-        task, deliverable = (text.split("### Deliverable", 1) if index < 4 else (text, None))
+        output_label = "Contribution to the paper" if index < 3 else "Deliverable"
+        task, deliverable = (text.split(f"### {output_label}", 1) if index < 4 else (text, None))
         story.extend([
             PageBreak(), PageTitle(f"Project stage {index} / 4", title, index),
             *blocks(task.replace("### Task\n", "", 1).strip()),
         ])
         if deliverable:
-            story.append(panel("Deliverable", deliverable))
+            story.append(panel(output_label, deliverable))
 
     research, paper_deliverable = research.split("### Deliverable", 1)
     story.extend([
