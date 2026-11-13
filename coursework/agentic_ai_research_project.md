@@ -1,12 +1,12 @@
-# Integrated Assignment: Agentic AI Workflow from Use Case to Research Paper
+# Agentic AI Research Project: From Use Case to Research Paper
 
 ## Objective
 
 Develop an agentic AI solution for a realistic workplace problem. Identify a suitable use case, design the agents and workflow, implement a working prototype, and write a research paper explaining the solution and its evaluation.
 
-This assignment combines the workflow case study and research paper into one project with four connected subtasks. Use the same use case throughout, refining it as you learn from research, design, and implementation.
+This research project combines the workflow case study and research paper into one project with four connected stages. Use the same use case throughout, refining it as you learn from research, design, and implementation.
 
-| Subtask | Focus | Main deliverable |
+| Project stage | Focus | Main deliverable |
 |---|---|---|
 | 1. Identify a use case | Understand the problem and current process. | Use-case brief and current-state process diagram. |
 | 2. Design the concept and agents | Define the proposed workflow, agent roles, prompts, tools, and human oversight. | Design document and proposed-workflow diagram. |
@@ -15,7 +15,7 @@ This assignment combines the workflow case study and research paper into one pro
 
 ## Learning outcomes
 
-By completing this assignment, you should be able to:
+By completing this research project, you should be able to:
 
 - Identify a focused use case and justify whether agentic AI is appropriate.
 - Translate a manual process into a workflow with clear agent responsibilities and human review points.
@@ -24,7 +24,7 @@ By completing this assignment, you should be able to:
 - Critically discuss evidence, risks, limitations, and potential organisational value.
 - Communicate the work in a research paper with verified references and an AI-use disclosure.
 
-## Use AI throughout the assignment
+## Use AI throughout the research project
 
 Use AI tools such as Claude, ChatGPT, Gemini, or similar tools to explore the use case, analyse the process, develop the design, locate research, critique ideas, create diagrams, and improve the paper. Use an AI coding tool such as Claude Code, Codex, or a similar assistant to support implementation, testing, and debugging.
 
@@ -32,7 +32,7 @@ You remain responsible for the submitted work. Review generated code and text, v
 
 Use public or synthetic data. Do not submit API keys, confidential documents, personal data, or internal information you are not authorised to share.
 
-## Subtask 1: Identify a use case
+## Project Stage 1: Identify a use case
 
 ### Task
 
@@ -52,13 +52,13 @@ Include a current-state process diagram showing how the work is performed today.
 
 ### Deliverable
 
-A use-case brief in Markdown, PDF, or document format, including the current-state diagram and initial success measures. This brief provides the problem definition for Subtask 2.
+A use-case brief in Markdown, PDF, or document format, including the current-state diagram and initial success measures. This brief provides the problem definition for Stage 2.
 
-## Subtask 2: Design the concept and agents
+## Project Stage 2: Design the concept and agents
 
 ### Task
 
-Design the proposed solution for the use case selected in Subtask 1. Explain which steps will be automated, assisted, or performed by a person.
+Design the proposed solution for the use case selected in Stage 1. Explain which steps will be automated, assisted, or performed by a person.
 
 Include a proposed-workflow diagram showing the trigger, inputs, agents, tools, handoffs, decisions, human review points, and final outputs. Mermaid, draw.io, and Excalidraw are acceptable diagram tools.
 
@@ -77,13 +77,13 @@ Plan the evaluation before implementation: select representative inputs, define 
 
 ### Deliverable
 
-A design document in Markdown, PDF, or document format containing the proposed-workflow diagram, agent specifications, system prompts, tool descriptions, human oversight rules, and evaluation plan. This design guides Subtask 3.
+A design document in Markdown, PDF, or document format containing the proposed-workflow diagram, agent specifications, system prompts, tool descriptions, human oversight rules, and evaluation plan. This design guides Stage 3.
 
-## Subtask 3: Implement and evaluate the workflow
+## Project Stage 3: Implement and evaluate the workflow
 
 ### Task
 
-Build a small working proof of concept of the design from Subtask 2. Use a notebook, Python application, or a no-code/low-code workflow that can be shared and reproduced. You may adapt the course lab examples; identify the starting point and explain your changes.
+Build a small working proof of concept of the design from Stage 2. Use a notebook, Python application, or a no-code/low-code workflow that can be shared and reproduced. You may adapt the course lab examples; identify the starting point and explain your changes.
 
 The prototype should demonstrate the main path from input to output, including agent interactions, tool use where relevant, and the human review points defined in your design. A production deployment or connection to real company systems is not required. External business actions may be simulated, provided you clearly identify what is simulated.
 
@@ -93,22 +93,22 @@ Provide:
 - Setup and execution instructions, dependencies, model/provider configuration, and instructions for supplying credentials securely.
 - An example run showing intermediate agent outputs or a workflow trace and the final result.
 - Evaluation cases covering normal operation and relevant failure or edge cases, such as missing information, conflicting evidence, or an unavailable tool.
-- Results against the success measures from Subtask 1, including observed errors and any human corrections.
+- Results against the success measures from Stage 1, including observed errors and any human corrections.
 - A short explanation of changes made to the original design and why they were needed.
 
 Report measured results separately from estimates. If you compare against a baseline, describe how the comparison was performed. Discuss execution time and model cost where available, and state the limits of a small evaluation.
 
-Implementation is a required part of this assignment. Keep the scope small enough to produce a runnable demonstration; pseudocode may explain the design but does not replace the prototype.
+Implementation is a required part of this research project. Keep the scope small enough to produce a runnable demonstration; pseudocode may explain the design but does not replace the prototype.
 
 ### Deliverable
 
-A runnable notebook, source-code project, or exported workflow with setup instructions, sample inputs, example outputs, and a short evaluation report. Publish the source code or exported workflow in a GitHub repository and include the repository link in your submission and research paper. These results form the evidence for Subtask 4.
+A runnable notebook, source-code project, or exported workflow with setup instructions, sample inputs, example outputs, and a short evaluation report. Publish the source code or exported workflow in a GitHub repository and include the repository link in your submission and research paper. These results form the evidence for Stage 4.
 
-## Subtask 4: Write a research paper
+## Project Stage 4: Write a research paper
 
 ### Task
 
-Develop the work from Subtasks 1–3 into one coherent research paper. Explain what problem you addressed, how the workflow was designed and implemented, what you observed, and what the evidence supports.
+Develop the work from Stages 1–3 into one coherent research paper. Explain what problem you addressed, how the workflow was designed and implemented, what you observed, and what the evidence supports.
 
 Write the paper in LaTeX using Overleaf if possible, and submit the compiled paper as a PDF. Use the following structure:
 
@@ -137,11 +137,11 @@ The following papers in this repository provide examples of agentic AI use cases
 
 ### Deliverable
 
-The final research paper as a PDF, drawing on the use-case brief, design, implementation, and evaluation from the preceding subtasks.
+The final research paper as a PDF, drawing on the use-case brief, design, implementation, and evaluation from the preceding stages.
 
 ## Final submission
 
-Submit the four subtasks as one project package:
+Submit the four stages as one project package:
 
 1. **Use-case brief**, including the current-state process diagram.
 2. **Design document**, including the proposed-workflow diagram, agent specifications, prompts, and evaluation plan.
