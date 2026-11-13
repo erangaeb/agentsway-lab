@@ -102,7 +102,7 @@ Implementation is a required part of this assignment. Keep the scope small enoug
 
 ### Deliverable
 
-A runnable notebook, source-code project, or exported workflow with setup instructions, sample inputs, example outputs, and a short evaluation report. These results form the evidence for Subtask 4.
+A runnable notebook, source-code project, or exported workflow with setup instructions, sample inputs, example outputs, and a short evaluation report. Publish the source code or exported workflow in a GitHub repository and include the repository link in your submission and research paper. These results form the evidence for Subtask 4.
 
 ## Subtask 4: Write a research paper
 
@@ -145,7 +145,7 @@ Submit the four subtasks as one project package:
 
 1. **Use-case brief**, including the current-state process diagram.
 2. **Design document**, including the proposed-workflow diagram, agent specifications, prompts, and evaluation plan.
-3. **Implementation and evaluation**, including runnable files, setup instructions, sample inputs, example outputs, and results.
+3. **Implementation and evaluation**, including the GitHub repository link, runnable files, setup instructions, sample inputs, example outputs, and results.
 4. **Research paper** as a PDF, including references and the AI-use disclosure.
 
 Ensure the documents and implementation describe the same final workflow. Record significant refinements to the original use case or design so that the progression of the project is clear.
