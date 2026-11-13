@@ -22,13 +22,13 @@ By completing this research project, you should be able to:
 - Define agent prompts, tools, inputs, outputs, and handoffs.
 - Implement and evaluate a prototype using public or synthetic data.
 - Critically discuss evidence, risks, limitations, and potential organisational value.
-- Communicate the work in a research paper with verified references and an AI-use disclosure.
+- Communicate the work in a research paper with verified references.
 
 ## Use AI throughout the research project
 
 Use AI tools such as Claude, ChatGPT, Gemini, or similar tools to explore the use case, analyse the process, develop the design, locate research, critique ideas, create diagrams, and improve the paper. Use an AI coding tool such as Claude Code, Codex, or a similar assistant to support implementation, testing, and debugging.
 
-You remain responsible for the submitted work. Review generated code and text, verify important claims and references, and explain the decisions you make. Keep a short record of the tools used and their contributions so that you can include an **AI-use disclosure** in the final paper.
+You remain responsible for the submitted work. Review generated code and text, verify important claims and references, and explain the decisions you make.
 
 Use public or synthetic data. Do not submit API keys, confidential documents, personal data, or internal information you are not authorised to share.
 
@@ -110,7 +110,9 @@ A runnable notebook, source-code project, or exported workflow with setup instru
 
 Develop the work from Stages 1–3 into one coherent research paper. Explain what problem you addressed, how the workflow was designed and implemented, what you observed, and what the evidence supports.
 
-Write the paper in LaTeX using Overleaf if possible, and submit the compiled paper as a PDF. Use the following structure:
+Write the paper in LaTeX using Overleaf if possible, and submit the compiled paper as a PDF.
+
+**Suggested paper structure:** You may adapt the headings and organisation to suit your research project. Your paper must still address all the topics below, clearly distinguish measured results from expected benefits, and cite the sources you use.
 
 1. **Title and abstract:** summarise the problem, approach, main findings, and limitations.
 2. **Introduction:** explain the context, motivation, project objective, and research question.
@@ -121,11 +123,18 @@ Write the paper in LaTeX using Overleaf if possible, and submit the compiled pap
 7. **Evaluation and results:** describe the evaluation method, inputs, success measures, comparison where available, and observed results, including failures.
 8. **Discussion and limitations:** interpret the findings, distinguish demonstrated benefits from expected benefits, and discuss privacy, bias, incorrect outputs, access control, cost, technical limitations, and human escalation.
 9. **Conclusion and future work:** state what the project demonstrated and what would need further investigation or development.
-10. **References and AI-use disclosure:** provide the verified references and explain which AI tools you used, how they contributed, and how you checked their outputs.
 
 Place lengthy system prompts, sample outputs, and detailed evaluation tables in an appendix or the accompanying project files, with clear references from the paper.
 
 The paper should reflect the implementation you actually built. Identify unimplemented features as future work, and do not present hypothetical or AI-generated results as measured findings.
+
+### Optional next step: share or publish your research
+
+Consider developing your paper for a wider research audience after receiving feedback from your instructor or supervisor. You may share a suitable manuscript as a preprint on arXiv or another appropriate repository, or develop it for submission to a conference or journal. This is optional: public posting or acceptance is not required for project completion or grading.
+
+A preprint makes a manuscript publicly available; posting it does not establish that it has passed peer review. arXiv moderates submissions and expects substantive scholarly work, so a course project is not automatically suitable. Read its [submission guidelines](https://info.arxiv.org/help/submit/index.html), [moderation policy](https://info.arxiv.org/help/moderation/index.html), and [endorsement requirements](https://info.arxiv.org/help/endorsement.html) before submitting.
+
+Before sharing, agree on authorship with all contributors, obtain co-author consent, verify permission to share the material, and check the chosen venue's submission and licensing requirements. Include a link to your code and clearly describe the evaluation and limitations. If you share the paper, add its public link or identifier to your project repository.
 
 ### Research starting points
 
@@ -146,7 +155,7 @@ Submit the four stages as one project package:
 1. **Use-case brief**, including the current-state process diagram.
 2. **Design document**, including the proposed-workflow diagram, agent specifications, prompts, and evaluation plan.
 3. **Implementation and evaluation**, including the GitHub repository link, runnable files, setup instructions, sample inputs, example outputs, and results.
-4. **Research paper** as a PDF, including references and the AI-use disclosure.
+4. **Research paper** as a PDF, including references.
 
 Ensure the documents and implementation describe the same final workflow. Record significant refinements to the original use case or design so that the progression of the project is clear.
 
@@ -158,4 +167,4 @@ Ensure the documents and implementation describe the same final workflow. Record
 - Can another person follow the instructions to run the prototype with their own credentials?
 - Do the evaluation results support the claims made in the paper?
 - Are sources verified and reused code or ideas acknowledged?
-- Have you included the AI-use disclosure and removed secrets and confidential or personal data?
+- Have you removed secrets and confidential or personal data?

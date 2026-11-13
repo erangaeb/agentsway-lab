@@ -243,8 +243,18 @@ Completed jobs also generate a provider-native voice briefing: OpenAI produces a
 
 Apply the notebook concepts to a realistic workplace problem:
 
+**Agentic AI Research Project: From Use Case to Research Paper** — one project with four stages:
+identify a use case, design the agents, implement and evaluate the workflow, and write a paper.
+Read the [project brief](coursework/agentic_ai_research_project.md) or
+download the [formatted PDF](coursework/agentic_ai_research_project.pdf).
+
+Original coursework briefs:
+
 - [Coursework 01: Agentic AI Workflow Case Study](coursework/01_agentic_ai_workflow_case_study.md) — analyse a manual process, design an agentic workflow, define agents and prompts, and optionally build a prototype.
 - [Coursework 02: AI-Assisted Research Paper on an Agentic AI Workflow](coursework/02_ai_assisted_research_paper.md) — develop the proposed workflow into a research paper and submit it as a PDF; LaTeX with Overleaf is recommended.
+
+To regenerate the PDF after editing the Markdown brief, install the document dependency with
+`python -m pip install reportlab`, then run `python scripts/build_research_project_pdf.py`.
 
 ## Papers
 
