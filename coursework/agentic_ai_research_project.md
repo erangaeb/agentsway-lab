@@ -1,4 +1,8 @@
-# Agentic AI Research Project: From Use Case to Research Paper
+**Agentsway Lab**
+
+# Agentic AI Research Project
+
+*From Use Case to Research Paper*
 
 ## Objective
 

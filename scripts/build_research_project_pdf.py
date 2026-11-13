@@ -217,12 +217,15 @@ def main():
         raise ValueError("Expected four project stages in the source overview table.")
 
     story = [
-        Spacer(1, 22),
-        para("RESEARCH PROJECT", LABEL),
-        para("Agentic AI", ParagraphStyle(
-            "CoverTitle", parent=TITLE, fontSize=48, leading=57, spaceAfter=8,
+        Spacer(1, 12),
+        para("AGENTSWAY LAB", LABEL),
+        Paragraph("Agentic AI<br/>Research Project", ParagraphStyle(
+            "CoverTitle", parent=TITLE, fontSize=38, leading=45, spaceAfter=12,
         )),
-        Paragraph("From Use Case<br/>to Research Paper", TITLE),
+        Paragraph("From Use Case<br/>to Research Paper", ParagraphStyle(
+            "CoverSubtitle", parent=TITLE, fontName="Vera", fontSize=22,
+            leading=29, textColor=MUTED,
+        )),
         Spacer(1, 6),
         *blocks(objective),
         Spacer(1, 15),
@@ -272,7 +275,7 @@ def main():
     ])
 
     document = BaseDocTemplate(
-        str(OUTPUT), pagesize=A4, title="Agentic AI Research Project: From Use Case to Research Paper",
+        str(OUTPUT), pagesize=A4, title="Agentsway Lab — Agentic AI Research Project: From Use Case to Research Paper",
         author="Agentsway Lab", subject="Master’s course in agentic AI — research project brief",
         leftMargin=MARGIN, rightMargin=MARGIN, topMargin=62, bottomMargin=58,
     )
